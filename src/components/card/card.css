@@ -1,0 +1,21 @@
+.card {
+  height: 35vh;
+  width: 23%;
+}
+
+.selected {
+  border: 1px solid blue;
+}
+
+.cardImage{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.ready:hover{
+  border: 3px solid rgb(75, 75, 247);
+  border-radius: 10px
+}

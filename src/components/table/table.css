@@ -1,0 +1,45 @@
+.table{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tableWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  height: 80%;
+  width: 80%;
+  align-self: center;
+}
+
+.tableText {
+  align-self: center;
+  border-radius: 5px;
+  height: 20%;
+  text-align: center;
+  width: 60%;
+  background-color: rgba(236, 236, 236, 0.623);
+}
+
+.playAgainButton{
+  border: none;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  padding: .3em;
+  font-size: 1.2em;
+}
+
+.score {
+  font-size: 1.3em;
+  color: rgb(0, 75, 0);
+  font-weight: 900;
+}
+
+.tableText{
+  color: rgb(0, 75, 0);
+  font-weight: 700;
+  margin: .2em;
+}
