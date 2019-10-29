@@ -1,5 +1,5 @@
 # Cardy_Clicky
-A fun game of remember your card using React and Using the deck of cards API
+:black_joker: A fun game of remember your card using React and Using the deck of cards API
 
 ## technologies
 
@@ -17,3 +17,4 @@ Pick cards but make sure you don't pick the same card more than once!
 ## Future development
 
 - Continuos mode (Keep adding new cards to make the game harder
+- CSS animations
