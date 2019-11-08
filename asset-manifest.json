@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Cardy_Clicky/static/css/main.f03f5114.chunk.css",
-    "main.js": "/Cardy_Clicky/static/js/main.a4e8775f.chunk.js",
-    "main.js.map": "/Cardy_Clicky/static/js/main.a4e8775f.chunk.js.map",
+    "main.css": "/Cardy_Clicky/static/css/main.9ece9ef4.chunk.css",
+    "main.js": "/Cardy_Clicky/static/js/main.5fd93f63.chunk.js",
+    "main.js.map": "/Cardy_Clicky/static/js/main.5fd93f63.chunk.js.map",
     "runtime-main.js": "/Cardy_Clicky/static/js/runtime-main.98cf11b6.js",
     "runtime-main.js.map": "/Cardy_Clicky/static/js/runtime-main.98cf11b6.js.map",
     "static/js/2.116045be.chunk.js": "/Cardy_Clicky/static/js/2.116045be.chunk.js",
     "static/js/2.116045be.chunk.js.map": "/Cardy_Clicky/static/js/2.116045be.chunk.js.map",
     "index.html": "/Cardy_Clicky/index.html",
-    "precache-manifest.6a5ef2177a6f9802478711fa232dfe5b.js": "/Cardy_Clicky/precache-manifest.6a5ef2177a6f9802478711fa232dfe5b.js",
+    "precache-manifest.883f26622d72443c2c20a0b34b329bbe.js": "/Cardy_Clicky/precache-manifest.883f26622d72443c2c20a0b34b329bbe.js",
     "service-worker.js": "/Cardy_Clicky/service-worker.js",
-    "static/css/main.f03f5114.chunk.css.map": "/Cardy_Clicky/static/css/main.f03f5114.chunk.css.map"
+    "static/css/main.9ece9ef4.chunk.css.map": "/Cardy_Clicky/static/css/main.9ece9ef4.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.98cf11b6.js",
     "static/js/2.116045be.chunk.js",
-    "static/css/main.f03f5114.chunk.css",
-    "static/js/main.a4e8775f.chunk.js"
+    "static/css/main.9ece9ef4.chunk.css",
+    "static/js/main.5fd93f63.chunk.js"
   ]
 }
