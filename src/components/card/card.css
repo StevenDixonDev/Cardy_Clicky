@@ -1,21 +1,35 @@
 .card {
   height: 35vh;
   width: 23%;
-}
-
-.selected {
-  border: 1px solid blue;
-}
-
-.cardImage{
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+  position: relative;
+  transition: transform .5s;
+  transform-style: preserve-3d;
+  box-shadow: 0 0 -10px rgb(63, 63, 63);
   cursor: pointer;
 }
 
+.card__face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  background-size: 100% 100% !important;
+}
+
+.card__face--front {
+  background: red;
+}
+
+.card__face--back {
+  background: blue;
+  transform: rotateY( 180deg );
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
 .ready:hover{
-  border: 3px solid rgb(75, 75, 247);
+  border: 2px solid transparent;
   border-radius: 10px
 }

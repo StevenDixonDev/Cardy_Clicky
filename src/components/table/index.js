@@ -97,31 +97,40 @@ function CardTable() {
 
   return (
     <div className="table">
-      <div className="tableText">
-        {!lose && selectedCards.length === 0 ? (
-          <p>
-            Goal: Pick Cards from the shown cards and try not to pick one you
-            picked before!
-          </p>
-        ) : (
-          ""
-        )}
-        {!lose && selectedCards.length === 0 ? <p>Pick the first Card</p> : ""}
-        {!lose && selectedCards.length > 0 ? (
-          <p>Now pick a card you have not picked before</p>
-        ) : (
-          ""
-        )}
-        {lose ? <h3>You Lost!</h3> : ""}
-        {hasWon ? <h3>You Won!</h3> : ""}
-        {lose || hasWon ? (
-          <button className="playAgainButton" onClick={reset}>
-            Play Again?
-          </button>
-        ) : (
-          ""
-        )}
-        <p className="score">SCORE: {correctCount}</p>
+      <div className="tableBanner">
+        <div className="bannertitle"><h2>Casino Clicky</h2></div>
+        <div className="bannertext">
+          {!lose && selectedCards.length === 0 ? (
+            <p>
+              Goal: Pick Cards from the shown cards and try not to pick one you
+              picked before!
+            </p>
+          ) : (
+            ""
+          )}
+          {!lose && selectedCards.length === 0 ? (
+            <p>Pick the first Card</p>
+          ) : (
+            ""
+          )}
+          {!lose && selectedCards.length > 0 ? (
+            <p>Now pick a card you have not picked before</p>
+          ) : (
+            ""
+          )}
+          {lose ? <h3>You Lost!</h3> : ""}
+          {hasWon ? <h3>You Won!</h3> : ""}
+          {lose || hasWon ? (
+            <button className="playAgainButton" onClick={reset}>
+              Play Again?
+            </button>
+          ) : (
+            ""
+          )}
+        </div>
+        <div className="bannerScore">
+          <p className="score">SCORE: {correctCount}</p>
+        </div>
       </div>
       <div className="tableWrapper">
         {cards.map(card => (

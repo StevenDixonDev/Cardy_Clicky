@@ -1,7 +1,34 @@
 .table{
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.tableBanner {
+  align-self: center;
+  width: 100%;
+  height: 10%;
+  background-color: rgb(20, 20, 20);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .5em;
+}
+
+.bannertitle{
+  color: rgb(172, 172, 172);
+}
+
+.bannertext{
+  color: rgb(172, 172, 172);
+  font-weight: 700;
+  margin: .2em;
+  display: flex;
+  min-width: 300px;
+  justify-content: space-around;
 }
 
 .tableWrapper{
@@ -11,22 +38,15 @@
   align-items: space-around;
   height: 80%;
   width: 80%;
+  max-width: 800px;
   align-self: center;
-}
-
-.tableText {
-  align-self: center;
-  border-radius: 5px;
-  height: 20%;
-  text-align: center;
-  width: 60%;
-  background-color: rgba(236, 236, 236, 0.623);
+  margin-top: .3em;
 }
 
 .playAgainButton{
   border: none;
   color: white;
-  background-color: green;
+  background-color: rgb(128, 15, 0);
   border-radius: 5px;
   padding: .3em;
   font-size: 1.2em;
@@ -34,12 +54,6 @@
 
 .score {
   font-size: 1.3em;
-  color: rgb(0, 75, 0);
+  color: rgb(172, 172, 172);
   font-weight: 900;
-}
-
-.tableText{
-  color: rgb(0, 75, 0);
-  font-weight: 700;
-  margin: .2em;
 }

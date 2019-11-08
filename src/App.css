@@ -12,12 +12,18 @@ html, body{
 .App{
   height: 100%;
   display: flex;
-  background: url("https://image.freepik.com/free-photo/royal-flush-clubs-poker-chips-green-background_23-2147937922.jpg");
+  background:url(https://patterncooler.com/gen/index/w/frilly_damask_tile_pattern-97.jpg);
   background-repeat: none;
   background-size: 100% 100%;
+  animation: 500s scroll alternate infinite linear;
 }
 
 #root{
   height: 100%;
 }
 
+ @keyframes scroll{
+  100%{
+    background-position: -4000px 0px;
+  }
+ }
